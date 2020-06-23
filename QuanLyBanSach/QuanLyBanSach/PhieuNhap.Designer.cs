@@ -38,6 +38,7 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnCTPN = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnCTPN = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -157,6 +157,17 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(822, 57);
             this.panel3.TabIndex = 2;
+            // 
+            // btnCTPN
+            // 
+            this.btnCTPN.Location = new System.Drawing.Point(319, 13);
+            this.btnCTPN.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnCTPN.Name = "btnCTPN";
+            this.btnCTPN.Size = new System.Drawing.Size(124, 33);
+            this.btnCTPN.TabIndex = 4;
+            this.btnCTPN.Text = "Xem chi tiết";
+            this.btnCTPN.UseVisualStyleBackColor = true;
+            this.btnCTPN.Click += new System.EventHandler(this.btnCTPN_Click);
             // 
             // textBox2
             // 
@@ -304,17 +315,6 @@
             this.label2.Size = new System.Drawing.Size(76, 23);
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã PN:";
-            // 
-            // btnCTPN
-            // 
-            this.btnCTPN.Location = new System.Drawing.Point(319, 13);
-            this.btnCTPN.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.btnCTPN.Name = "btnCTPN";
-            this.btnCTPN.Size = new System.Drawing.Size(124, 33);
-            this.btnCTPN.TabIndex = 4;
-            this.btnCTPN.Text = "Xem chi tiết";
-            this.btnCTPN.UseVisualStyleBackColor = true;
-            this.btnCTPN.Click += new System.EventHandler(this.btnCTPN_Click);
             // 
             // PhieuNhap
             // 

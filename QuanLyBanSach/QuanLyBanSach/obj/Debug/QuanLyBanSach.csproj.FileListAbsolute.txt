@@ -18,7 +18,6 @@ D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.GenerateRe
 D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CoreCompileInputs.cache
 D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.exe
 D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.pdb
-D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.ThongTinDuLieu.resources
 G:\TT nhom\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csprojAssemblyReference.cache
 G:\TT nhom\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.Form1.resources
 G:\TT nhom\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.PhieuNhap.resources
@@ -36,3 +35,11 @@ G:\TT nhom\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.xml
 G:\TT nhom\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.xml
 G:\TT nhom\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CopyComplete
 G:\TT nhom\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTPN.resources
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.dll
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.dll
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.xml
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.xml
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTPN.resources
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.PhieuNhap.resources
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CopyComplete
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormSach.resources
