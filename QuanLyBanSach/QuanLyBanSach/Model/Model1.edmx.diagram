@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f44a9194841f457e9b017200f31a5254" Name="Diagram1">
+        <EntityTypeShape EntityType="QuanLyBanSachModel.CTHOADONBAN" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanSachModel.CTPHIEUNHAP" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanSachModel.HOADONBAN" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanSachModel.NHACUNGCAP" Width="1.5" PointX="1.5" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanSachModel.NHANVIEN" Width="1.5" PointX="1.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanSachModel.PHIEUNHAP" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QuanLyBanSachModel.SACH" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="QuanLyBanSachModel.FK_CTHOADONBAN_HOADONBAN" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanSachModel.FK_CTHOADONBAN_SACH" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanSachModel.FK_CTPHIEUNHAP_PHIEUNHAP" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanSachModel.FK_CTPHIEUNHAP_SACH" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanSachModel.FK_HOADONBAN_NHANVIEN" ManuallyRouted="false" />
+        <AssociationConnector Association="QuanLyBanSachModel.FK_PHIEUNHAP_NHACUNGCAP" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
