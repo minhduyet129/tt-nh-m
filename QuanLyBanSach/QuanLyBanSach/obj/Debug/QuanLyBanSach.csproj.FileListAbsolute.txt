@@ -8,3 +8,14 @@ C:\Users\tran duyet\Desktop\thực tập nhóm\QuanLyBanSach\QuanLyBanSach\obj\D
 C:\Users\tran duyet\Desktop\thực tập nhóm\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CoreCompileInputs.cache
 C:\Users\tran duyet\Desktop\thực tập nhóm\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.exe
 C:\Users\tran duyet\Desktop\thực tập nhóm\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.pdb
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe.config
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.pdb
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csprojAssemblyReference.cache
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.Form1.resources
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.Properties.Resources.resources
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.GenerateResource.cache
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CoreCompileInputs.cache
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.exe
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.pdb
+D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.ThongTinDuLieu.resources
