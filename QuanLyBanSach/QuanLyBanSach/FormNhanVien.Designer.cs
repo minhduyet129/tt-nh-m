@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listViewPhieuNhap = new System.Windows.Forms.ListView();
+            this.listViewNhanVien = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -44,14 +44,14 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnThoat = new System.Windows.Forms.Button();
-            this.txtBoxTongTien = new System.Windows.Forms.TextBox();
-            this.cbMaPN = new System.Windows.Forms.ComboBox();
+            this.TxtDiaChi = new System.Windows.Forms.TextBox();
+            this.txtLuong = new System.Windows.Forms.TextBox();
+            this.cbMaNV = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.cbTenNV = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -92,7 +92,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listViewPhieuNhap);
+            this.groupBox1.Controls.Add(this.listViewNhanVien);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -103,24 +103,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách: Nhân viên";
             // 
-            // listViewPhieuNhap
+            // listViewNhanVien
             // 
-            this.listViewPhieuNhap.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listViewNhanVien.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
-            this.listViewPhieuNhap.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listViewPhieuNhap.FullRowSelect = true;
-            this.listViewPhieuNhap.GridLines = true;
-            this.listViewPhieuNhap.HideSelection = false;
-            this.listViewPhieuNhap.Location = new System.Drawing.Point(2, 26);
-            this.listViewPhieuNhap.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.listViewPhieuNhap.Name = "listViewPhieuNhap";
-            this.listViewPhieuNhap.Size = new System.Drawing.Size(818, 211);
-            this.listViewPhieuNhap.TabIndex = 0;
-            this.listViewPhieuNhap.UseCompatibleStateImageBehavior = false;
-            this.listViewPhieuNhap.View = System.Windows.Forms.View.Details;
+            this.listViewNhanVien.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listViewNhanVien.FullRowSelect = true;
+            this.listViewNhanVien.GridLines = true;
+            this.listViewNhanVien.HideSelection = false;
+            this.listViewNhanVien.Location = new System.Drawing.Point(2, 26);
+            this.listViewNhanVien.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.listViewNhanVien.Name = "listViewNhanVien";
+            this.listViewNhanVien.Size = new System.Drawing.Size(818, 211);
+            this.listViewNhanVien.TabIndex = 0;
+            this.listViewNhanVien.UseCompatibleStateImageBehavior = false;
+            this.listViewNhanVien.View = System.Windows.Forms.View.Details;
+            this.listViewNhanVien.SelectedIndexChanged += new System.EventHandler(this.listViewNhanVien_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -175,6 +176,7 @@
             this.btnXoa.TabIndex = 2;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -185,6 +187,7 @@
             this.btnSua.TabIndex = 1;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -195,14 +198,15 @@
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.btnThoat);
-            this.panel4.Controls.Add(this.textBox1);
-            this.panel4.Controls.Add(this.textBox3);
-            this.panel4.Controls.Add(this.txtBoxTongTien);
-            this.panel4.Controls.Add(this.cbMaPN);
+            this.panel4.Controls.Add(this.TxtDiaChi);
+            this.panel4.Controls.Add(this.txtLuong);
+            this.panel4.Controls.Add(this.cbTenNV);
+            this.panel4.Controls.Add(this.cbMaNV);
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label3);
@@ -223,23 +227,32 @@
             this.btnThoat.TabIndex = 3;
             this.btnThoat.Text = "Quay lại";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // txtBoxTongTien
+            // TxtDiaChi
             // 
-            this.txtBoxTongTien.Location = new System.Drawing.Point(583, 88);
-            this.txtBoxTongTien.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.txtBoxTongTien.Name = "txtBoxTongTien";
-            this.txtBoxTongTien.Size = new System.Drawing.Size(203, 30);
-            this.txtBoxTongTien.TabIndex = 7;
+            this.TxtDiaChi.Location = new System.Drawing.Point(583, 30);
+            this.TxtDiaChi.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.TxtDiaChi.Name = "TxtDiaChi";
+            this.TxtDiaChi.Size = new System.Drawing.Size(203, 30);
+            this.TxtDiaChi.TabIndex = 7;
             // 
-            // cbMaPN
+            // txtLuong
             // 
-            this.cbMaPN.FormattingEnabled = true;
-            this.cbMaPN.Location = new System.Drawing.Point(147, 29);
-            this.cbMaPN.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.cbMaPN.Name = "cbMaPN";
-            this.cbMaPN.Size = new System.Drawing.Size(203, 31);
-            this.cbMaPN.TabIndex = 6;
+            this.txtLuong.Location = new System.Drawing.Point(583, 88);
+            this.txtLuong.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtLuong.Name = "txtLuong";
+            this.txtLuong.Size = new System.Drawing.Size(203, 30);
+            this.txtLuong.TabIndex = 7;
+            // 
+            // cbMaNV
+            // 
+            this.cbMaNV.FormattingEnabled = true;
+            this.cbMaNV.Location = new System.Drawing.Point(147, 29);
+            this.cbMaNV.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.cbMaNV.Name = "cbMaNV";
+            this.cbMaNV.Size = new System.Drawing.Size(203, 31);
+            this.cbMaNV.TabIndex = 6;
             // 
             // label5
             // 
@@ -281,21 +294,14 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã NV";
             // 
-            // textBox1
+            // cbTenNV
             // 
-            this.textBox1.Location = new System.Drawing.Point(147, 88);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(203, 30);
-            this.textBox1.TabIndex = 7;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(583, 30);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(203, 30);
-            this.textBox3.TabIndex = 7;
+            this.cbTenNV.FormattingEnabled = true;
+            this.cbTenNV.Location = new System.Drawing.Point(147, 92);
+            this.cbTenNV.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.cbTenNV.Name = "cbTenNV";
+            this.cbTenNV.Size = new System.Drawing.Size(203, 31);
+            this.cbTenNV.TabIndex = 6;
             // 
             // FormNhanVien
             // 
@@ -311,6 +317,7 @@
             this.Name = "FormNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormNhanVien";
+            this.Load += new System.EventHandler(this.FormNhanVien_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -328,7 +335,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListView listViewPhieuNhap;
+        private System.Windows.Forms.ListView listViewNhanVien;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
@@ -340,13 +347,13 @@
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.TextBox txtBoxTongTien;
-        private System.Windows.Forms.ComboBox cbMaPN;
+        private System.Windows.Forms.TextBox txtLuong;
+        private System.Windows.Forms.ComboBox cbMaNV;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox TxtDiaChi;
+        private System.Windows.Forms.ComboBox cbTenNV;
     }
 }

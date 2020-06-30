@@ -32,26 +32,26 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.listViewPhieuNhap = new System.Windows.Forms.ListView();
+            this.listViewNCC = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTK = new System.Windows.Forms.TextBox();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnThoat = new System.Windows.Forms.Button();
-            this.dtNgayNhap = new System.Windows.Forms.DateTimePicker();
-            this.cbNCC = new System.Windows.Forms.ComboBox();
-            this.txtBoxTongTien = new System.Windows.Forms.TextBox();
-            this.cbMaPN = new System.Windows.Forms.ComboBox();
+            this.cbTenNCC = new System.Windows.Forms.ComboBox();
+            this.txtDiaChi = new System.Windows.Forms.TextBox();
+            this.cbMaNCC = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.txtSDT = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -92,7 +92,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listViewPhieuNhap);
+            this.groupBox1.Controls.Add(this.listViewNCC);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -103,24 +103,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách: Nhà cung cấp";
             // 
-            // listViewPhieuNhap
+            // listViewNCC
             // 
-            this.listViewPhieuNhap.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listViewNCC.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
-            this.listViewPhieuNhap.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listViewPhieuNhap.FullRowSelect = true;
-            this.listViewPhieuNhap.GridLines = true;
-            this.listViewPhieuNhap.HideSelection = false;
-            this.listViewPhieuNhap.Location = new System.Drawing.Point(2, 26);
-            this.listViewPhieuNhap.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.listViewPhieuNhap.Name = "listViewPhieuNhap";
-            this.listViewPhieuNhap.Size = new System.Drawing.Size(818, 211);
-            this.listViewPhieuNhap.TabIndex = 0;
-            this.listViewPhieuNhap.UseCompatibleStateImageBehavior = false;
-            this.listViewPhieuNhap.View = System.Windows.Forms.View.Details;
+            this.listViewNCC.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listViewNCC.FullRowSelect = true;
+            this.listViewNCC.GridLines = true;
+            this.listViewNCC.HideSelection = false;
+            this.listViewNCC.Location = new System.Drawing.Point(2, 26);
+            this.listViewNCC.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.listViewNCC.Name = "listViewNCC";
+            this.listViewNCC.Size = new System.Drawing.Size(818, 211);
+            this.listViewNCC.TabIndex = 0;
+            this.listViewNCC.UseCompatibleStateImageBehavior = false;
+            this.listViewNCC.View = System.Windows.Forms.View.Details;
+            this.listViewNCC.SelectedIndexChanged += new System.EventHandler(this.listViewNCC_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -135,16 +136,18 @@
             // columnHeader3
             // 
             this.columnHeader3.Text = "SĐT";
+            this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader3.Width = 204;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Địa chỉ";
+            this.columnHeader4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader4.Width = 165;
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.txtTK);
             this.panel3.Controls.Add(this.btnXoa);
             this.panel3.Controls.Add(this.btnSua);
             this.panel3.Controls.Add(this.btnThem);
@@ -155,14 +158,14 @@
             this.panel3.Size = new System.Drawing.Size(822, 57);
             this.panel3.TabIndex = 4;
             // 
-            // textBox2
+            // txtTK
             // 
-            this.textBox2.Location = new System.Drawing.Point(529, 20);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(266, 30);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "Tìm kiếm theo tên NCC";
+            this.txtTK.Location = new System.Drawing.Point(529, 20);
+            this.txtTK.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtTK.Name = "txtTK";
+            this.txtTK.Size = new System.Drawing.Size(266, 30);
+            this.txtTK.TabIndex = 3;
+            this.txtTK.Text = "Tìm kiếm theo tên NCC";
             // 
             // btnXoa
             // 
@@ -173,6 +176,7 @@
             this.btnXoa.TabIndex = 2;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -183,6 +187,7 @@
             this.btnSua.TabIndex = 1;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -193,14 +198,15 @@
             this.btnThem.TabIndex = 0;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = true;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.btnThoat);
-            this.panel4.Controls.Add(this.dtNgayNhap);
-            this.panel4.Controls.Add(this.cbNCC);
-            this.panel4.Controls.Add(this.txtBoxTongTien);
-            this.panel4.Controls.Add(this.cbMaPN);
+            this.panel4.Controls.Add(this.cbTenNCC);
+            this.panel4.Controls.Add(this.txtSDT);
+            this.panel4.Controls.Add(this.txtDiaChi);
+            this.panel4.Controls.Add(this.cbMaNCC);
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label3);
@@ -221,42 +227,33 @@
             this.btnThoat.TabIndex = 3;
             this.btnThoat.Text = "Quay lại";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // dtNgayNhap
+            // cbTenNCC
             // 
-            this.dtNgayNhap.CustomFormat = "yyyy/MM/dd";
-            this.dtNgayNhap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtNgayNhap.Location = new System.Drawing.Point(147, 93);
-            this.dtNgayNhap.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.dtNgayNhap.Name = "dtNgayNhap";
-            this.dtNgayNhap.Size = new System.Drawing.Size(203, 30);
-            this.dtNgayNhap.TabIndex = 9;
+            this.cbTenNCC.FormattingEnabled = true;
+            this.cbTenNCC.Location = new System.Drawing.Point(583, 29);
+            this.cbTenNCC.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.cbTenNCC.Name = "cbTenNCC";
+            this.cbTenNCC.Size = new System.Drawing.Size(203, 31);
+            this.cbTenNCC.TabIndex = 8;
             // 
-            // cbNCC
+            // txtDiaChi
             // 
-            this.cbNCC.FormattingEnabled = true;
-            this.cbNCC.Location = new System.Drawing.Point(583, 29);
-            this.cbNCC.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.cbNCC.Name = "cbNCC";
-            this.cbNCC.Size = new System.Drawing.Size(203, 31);
-            this.cbNCC.TabIndex = 8;
+            this.txtDiaChi.Location = new System.Drawing.Point(583, 88);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtDiaChi.Name = "txtDiaChi";
+            this.txtDiaChi.Size = new System.Drawing.Size(203, 30);
+            this.txtDiaChi.TabIndex = 7;
             // 
-            // txtBoxTongTien
+            // cbMaNCC
             // 
-            this.txtBoxTongTien.Location = new System.Drawing.Point(583, 88);
-            this.txtBoxTongTien.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.txtBoxTongTien.Name = "txtBoxTongTien";
-            this.txtBoxTongTien.Size = new System.Drawing.Size(203, 30);
-            this.txtBoxTongTien.TabIndex = 7;
-            // 
-            // cbMaPN
-            // 
-            this.cbMaPN.FormattingEnabled = true;
-            this.cbMaPN.Location = new System.Drawing.Point(147, 29);
-            this.cbMaPN.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.cbMaPN.Name = "cbMaPN";
-            this.cbMaPN.Size = new System.Drawing.Size(203, 31);
-            this.cbMaPN.TabIndex = 6;
+            this.cbMaNCC.FormattingEnabled = true;
+            this.cbMaNCC.Location = new System.Drawing.Point(147, 29);
+            this.cbMaNCC.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.cbMaNCC.Name = "cbMaNCC";
+            this.cbMaNCC.Size = new System.Drawing.Size(203, 31);
+            this.cbMaNCC.TabIndex = 6;
             // 
             // label5
             // 
@@ -298,6 +295,14 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Mã NCC";
             // 
+            // txtSDT
+            // 
+            this.txtSDT.Location = new System.Drawing.Point(147, 89);
+            this.txtSDT.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtSDT.Name = "txtSDT";
+            this.txtSDT.Size = new System.Drawing.Size(203, 30);
+            this.txtSDT.TabIndex = 7;
+            // 
             // FormNCC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
@@ -308,10 +313,11 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormNCC";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormNCC";
+            this.Load += new System.EventHandler(this.FormNCC_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -329,25 +335,25 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListView listViewPhieuNhap;
+        private System.Windows.Forms.ListView listViewNCC;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTK;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.DateTimePicker dtNgayNhap;
-        private System.Windows.Forms.ComboBox cbNCC;
-        private System.Windows.Forms.TextBox txtBoxTongTien;
-        private System.Windows.Forms.ComboBox cbMaPN;
+        private System.Windows.Forms.ComboBox cbTenNCC;
+        private System.Windows.Forms.TextBox txtDiaChi;
+        private System.Windows.Forms.ComboBox cbMaNCC;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtSDT;
     }
 }

@@ -100,7 +100,7 @@
             this.groupBox1.Size = new System.Drawing.Size(822, 240);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Danh sách Sách";
+            this.groupBox1.Text = "Danh sách: Sách";
             // 
             // listViewSach
             // 
