@@ -34,6 +34,9 @@ namespace QuanLyBanSach
                 listViewSach.Items.Add(newItem);
             }
 
+            //cbSach.DataSource = db.SACHes.ToList();
+            //cbSach.DisplayMember = "TenSach";
+
         }
 
         private void FormSach_Load(object sender, EventArgs e)

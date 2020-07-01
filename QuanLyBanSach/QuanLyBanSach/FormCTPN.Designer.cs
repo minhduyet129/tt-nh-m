@@ -38,7 +38,7 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
@@ -52,7 +52,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.txtDonGia = new System.Windows.Forms.TextBox();
-            this.UpDownSL = new System.Windows.Forms.DomainUpDown();
+            this.txtSLnhap = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -147,7 +147,7 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.txtTimKiem);
             this.panel3.Controls.Add(this.btnXoa);
             this.panel3.Controls.Add(this.btnSua);
             this.panel3.Controls.Add(this.btnThem);
@@ -158,14 +158,16 @@
             this.panel3.Size = new System.Drawing.Size(822, 57);
             this.panel3.TabIndex = 3;
             // 
-            // textBox2
+            // txtTimKiem
             // 
-            this.textBox2.Location = new System.Drawing.Point(529, 20);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(266, 30);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "Tìm kiếm theo mã PN";
+            this.txtTimKiem.Location = new System.Drawing.Point(529, 20);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(266, 30);
+            this.txtTimKiem.TabIndex = 3;
+            this.txtTimKiem.Text = "Tìm kiếm theo tên sách";
+            this.txtTimKiem.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox2_MouseClick);
+            this.txtTimKiem.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTimKiem_KeyPress);
             // 
             // btnXoa
             // 
@@ -202,7 +204,7 @@
             // 
             // panel4
             // 
-            this.panel4.Controls.Add(this.UpDownSL);
+            this.panel4.Controls.Add(this.txtSLnhap);
             this.panel4.Controls.Add(this.txtDonGia);
             this.panel4.Controls.Add(this.btnThoat);
             this.panel4.Controls.Add(this.txtThanhTien);
@@ -227,6 +229,7 @@
             this.btnThoat.TabIndex = 3;
             this.btnThoat.Text = "Quay lại";
             this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // txtThanhTien
             // 
@@ -298,13 +301,13 @@
             this.txtDonGia.Size = new System.Drawing.Size(203, 30);
             this.txtDonGia.TabIndex = 8;
             // 
-            // UpDownSL
+            // txtSLnhap
             // 
-            this.UpDownSL.Location = new System.Drawing.Point(147, 97);
-            this.UpDownSL.Name = "UpDownSL";
-            this.UpDownSL.Size = new System.Drawing.Size(203, 30);
-            this.UpDownSL.TabIndex = 10;
-            this.UpDownSL.Text = "0";
+            this.txtSLnhap.Location = new System.Drawing.Point(147, 95);
+            this.txtSLnhap.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtSLnhap.Name = "txtSLnhap";
+            this.txtSLnhap.Size = new System.Drawing.Size(203, 30);
+            this.txtSLnhap.TabIndex = 9;
             // 
             // FormCTPN
             // 
@@ -344,7 +347,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtTimKiem;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnThem;
@@ -357,7 +360,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.DomainUpDown UpDownSL;
         private System.Windows.Forms.TextBox txtDonGia;
+        private System.Windows.Forms.TextBox txtSLnhap;
     }
 }

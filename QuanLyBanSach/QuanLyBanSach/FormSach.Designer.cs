@@ -33,6 +33,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.listViewSach = new System.Windows.Forms.ListView();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
             this.btnXoa = new System.Windows.Forms.Button();
@@ -40,16 +44,12 @@
             this.btnThem = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.txtSach = new System.Windows.Forms.TextBox();
+            this.txtSLTonKho = new System.Windows.Forms.TextBox();
             this.txtGiaBan = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtSLTonKho = new System.Windows.Forms.TextBox();
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.txtSach = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -100,7 +100,7 @@
             this.groupBox1.Size = new System.Drawing.Size(822, 240);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Danh sách: Sách";
+            this.groupBox1.Text = "Danh sách Sách";
             // 
             // listViewSach
             // 
@@ -114,14 +114,36 @@
             this.listViewSach.FullRowSelect = true;
             this.listViewSach.GridLines = true;
             this.listViewSach.HideSelection = false;
-            this.listViewSach.Location = new System.Drawing.Point(2, 22);
+            this.listViewSach.Location = new System.Drawing.Point(2, 26);
             this.listViewSach.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.listViewSach.Name = "listViewSach";
-            this.listViewSach.Size = new System.Drawing.Size(818, 215);
+            this.listViewSach.Size = new System.Drawing.Size(818, 211);
             this.listViewSach.TabIndex = 0;
             this.listViewSach.UseCompatibleStateImageBehavior = false;
             this.listViewSach.View = System.Windows.Forms.View.Details;
             this.listViewSach.SelectedIndexChanged += new System.EventHandler(this.listViewSach_SelectedIndexChanged);
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Mã sách";
+            this.columnHeader5.Width = 90;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Sách";
+            this.columnHeader6.Width = 462;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "SL tồn kho";
+            this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader7.Width = 142;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Giá bán";
+            this.columnHeader8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.columnHeader8.Width = 110;
             // 
             // panel3
             // 
@@ -138,10 +160,10 @@
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(529, 20);
+            this.txtTimKiem.Location = new System.Drawing.Point(530, 10);
             this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(266, 30);
+            this.txtTimKiem.Size = new System.Drawing.Size(266, 36);
             this.txtTimKiem.TabIndex = 3;
             this.txtTimKiem.Text = "Tìm kiếm theo tên sách";
             // 
@@ -205,12 +227,31 @@
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // txtSach
+            // 
+            this.txtSach.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSach.Location = new System.Drawing.Point(147, 25);
+            this.txtSach.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtSach.Name = "txtSach";
+            this.txtSach.Size = new System.Drawing.Size(639, 36);
+            this.txtSach.TabIndex = 7;
+            // 
+            // txtSLTonKho
+            // 
+            this.txtSLTonKho.Location = new System.Drawing.Point(147, 95);
+            this.txtSLTonKho.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.txtSLTonKho.Name = "txtSLTonKho";
+            this.txtSLTonKho.Size = new System.Drawing.Size(203, 36);
+            this.txtSLTonKho.TabIndex = 7;
+            this.txtSLTonKho.Text = "0";
+            this.txtSLTonKho.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // txtGiaBan
             // 
             this.txtGiaBan.Location = new System.Drawing.Point(583, 95);
             this.txtGiaBan.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtGiaBan.Name = "txtGiaBan";
-            this.txtGiaBan.Size = new System.Drawing.Size(203, 30);
+            this.txtGiaBan.Size = new System.Drawing.Size(203, 36);
             this.txtGiaBan.TabIndex = 7;
             this.txtGiaBan.Text = "0";
             this.txtGiaBan.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -221,7 +262,7 @@
             this.label5.Location = new System.Drawing.Point(464, 98);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 23);
+            this.label5.Size = new System.Drawing.Size(107, 28);
             this.label5.TabIndex = 3;
             this.label5.Text = "Giá bán:";
             // 
@@ -231,7 +272,7 @@
             this.label4.Location = new System.Drawing.Point(24, 98);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 23);
+            this.label4.Size = new System.Drawing.Size(139, 28);
             this.label4.TabIndex = 2;
             this.label4.Text = "SL tồn kho:";
             // 
@@ -241,54 +282,13 @@
             this.label2.Location = new System.Drawing.Point(24, 35);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 23);
+            this.label2.Size = new System.Drawing.Size(77, 28);
             this.label2.TabIndex = 0;
             this.label2.Text = "Sách:";
             // 
-            // txtSLTonKho
-            // 
-            this.txtSLTonKho.Location = new System.Drawing.Point(147, 95);
-            this.txtSLTonKho.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.txtSLTonKho.Name = "txtSLTonKho";
-            this.txtSLTonKho.Size = new System.Drawing.Size(203, 30);
-            this.txtSLTonKho.TabIndex = 7;
-            this.txtSLTonKho.Text = "0";
-            this.txtSLTonKho.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Mã sách";
-            this.columnHeader5.Width = 90;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Sách";
-            this.columnHeader6.Width = 480;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "SL tồn kho";
-            this.columnHeader7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader7.Width = 120;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Giá bán";
-            this.columnHeader8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.columnHeader8.Width = 110;
-            // 
-            // txtSach
-            // 
-            this.txtSach.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSach.Location = new System.Drawing.Point(147, 25);
-            this.txtSach.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
-            this.txtSach.Name = "txtSach";
-            this.txtSach.Size = new System.Drawing.Size(639, 30);
-            this.txtSach.TabIndex = 7;
-            // 
             // FormSach
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(822, 562);
             this.Controls.Add(this.panel4);
@@ -296,7 +296,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "FormSach";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormSach";

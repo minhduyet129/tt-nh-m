@@ -23,7 +23,7 @@ namespace QuanLyBanSach
         public static decimal ThanhTien;
         private void button4_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void HienThi(List<PHIEUNHAP> listPN)
@@ -43,6 +43,14 @@ namespace QuanLyBanSach
             cbNCC.DataSource = db.NHACUNGCAPs.ToList();
             cbNCC.DisplayMember = "TenNCC";
             cbNCC.ValueMember = "MaNCC";//Khi chọn tên mà dùng lại thì nó sẽ lấy là mã ncc 
+            if(FormCTPN.MaPNChon!=0)
+            {
+                MaPN = FormCTPN.MaPNChon;
+                PHIEUNHAP pn = db.PHIEUNHAPs.Single(x => x.MaPN == MaPN);
+                pn.TongTienNhap = FormCTPN.ThanhTienPhieuNhap;
+                db.SaveChanges();
+            }    
+
         }
 
         private void PhieuNhap_Load(object sender, EventArgs e)
@@ -104,9 +112,22 @@ namespace QuanLyBanSach
                 FormCTPN ctpn = new FormCTPN();
                 this.Hide();
                 ctpn.ShowDialog();
+                PhieuNhap_Load(sender, e);
                 this.Show();
             }
             else MessageBox.Show("bạn hãy chọn phiếu nhập thì mới xem được chi tiết của nó!");
+        }
+
+        private void btnCapNhat_Click(object sender, EventArgs e)
+        {
+            PhieuNhap_Load(sender, e);
+        }
+        
+        
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

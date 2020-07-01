@@ -43,23 +43,72 @@ D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTPN.resource
 D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.PhieuNhap.resources
 D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CopyComplete
 D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormSach.resources
-D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNCC.resources
-D:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNhanVien.resources
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe.config
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.exe
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.pdb
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.pdb
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.dll
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.dll
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.xml
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.xml
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csprojResolveAssemblyReference.cache
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.Form1.resources
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTPN.resources
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNCC.resources
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNhanVien.resources
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormSach.resources
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.PhieuNhap.resources
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.Properties.Resources.resources
-E:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.GenerateResource.Cache
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csprojAssemblyReference.cache
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTHDB.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTPN.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormSach.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.HoaDonBan.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.PhieuNhap.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.Properties.Resources.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.GenerateResource.cache
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CoreCompileInputs.cache
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.exe
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.pdb
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe.config
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.pdb
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.dll
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.dll
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.xml
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.xml
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CopyComplete
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormMain.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNCC.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNhanvien.resources
+F:\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormThongKe.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe.config
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.pdb
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.dll
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.dll
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.xml
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.xml
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csprojAssemblyReference.cache
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTHDB.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTPN.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormMain.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNCC.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNhanvien.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormSach.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormThongKe.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.HoaDonBan.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.PhieuNhap.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.Properties.Resources.resources
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.GenerateResource.cache
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CoreCompileInputs.cache
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CopyComplete
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.exe
+G:\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.pdb
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe.config
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.exe
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\QuanLyBanSach.pdb
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.dll
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.xml
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csprojAssemblyReference.cache
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTHDB.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormCTPN.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormMain.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNCC.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormNhanvien.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormSach.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.FormThongKe.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.HoaDonBan.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.PhieuNhap.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.Properties.Resources.resources
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.GenerateResource.cache
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CoreCompileInputs.cache
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.csproj.CopyComplete
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.exe
+C:\Users\tran duyet\Desktop\tt nhom github\tt-nh-m\QuanLyBanSach\QuanLyBanSach\obj\Debug\QuanLyBanSach.pdb
